@@ -17,7 +17,7 @@ class RandomStudentViewController: UIViewController {
     //Function that activate when the button is tapped هذه الدالة 👇🏻 التي تعمل عندما يتم الضغط على زر (اختر)
     @IBAction func tappedButton(_ sender: UIButton) {
         
-        let randomStudent = students.randomElement()!
+        let randomStudent = Students.randomElement()!
         
         let randomStudentName = randomStudent.name
         let randomStudentTrack = randomStudent.track
